@@ -9,11 +9,11 @@
 * git commit
 * git remote
 * git remote -v 
-* git remote show <name_of_remote>
-* git clone <source_directory> <destination_directory>
-* git remote add <name_of_remote> <url>
+* git remote show [name_of_remote]
+* git clone [source_directory] [destination_directory]
+* git remote add [name_of_remote] [url]
 * git push
-* git push <name_of_remote> <branch_name>
+* git push [name_of_remote] [branch_name]
 * git branch
 * git branch --list
 * git branch -a
