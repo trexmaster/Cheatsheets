@@ -1,4 +1,5 @@
 # Python cheatsheet
+## Simple data types
 Display the type of an object :
 ```python
 >>> type(1)
@@ -9,6 +10,22 @@ Display the type of an object :
 Assign to a variable :
 ```python
 >>> x = 4
+```
+This is a string :
+```python
+>>> type('Hello')
+<class 'str'>
+```
+Let's concatanate a string :
+```python
+>>> 'Hello'+'World'
+'HelloWorld'
+```
+String and variable concatenation :
+```python
+>>> name = "Nicolas"
+>>> "Hello" + name
+'HelloNicolas'
 ```
 
 ```python
