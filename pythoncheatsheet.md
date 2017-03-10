@@ -27,6 +27,11 @@ String and variable concatenation :
 >>> "Hello" + name
 'HelloNicolas'
 ```
+Addition :
+```python
+>>> 1 + 1
+2
+```
 
 ```python
 def function():
