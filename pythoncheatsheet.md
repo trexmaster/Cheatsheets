@@ -32,6 +32,21 @@ Addition :
 >>> 1 + 1
 2
 ```
+Convert a number to a string :
+```python
+>>> str(1)
+'1'
+```
+Concatanate a string and a number :
+```python
+>>> 'HEllo ' + str(1)
+'HEllo 1'
+```
+Length of a string :
+```python
+>>> len('Hello')
+5
+```
 
 ```python
 def function():
