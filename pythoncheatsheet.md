@@ -1,5 +1,6 @@
 # Python cheatsheet
 * [Simple data types](#simple-data-types)
+* [Making choices : booleans, if and conditionals](#Making-choices-booleans-if-and-conditionals)
 
 ## Simple data types
 Display the type of an object :
@@ -77,6 +78,7 @@ Print variables :
 Happy Birthday
 ```
 
+## Making choices : booleans, if and conditionals
 
 ```python
 def function():
