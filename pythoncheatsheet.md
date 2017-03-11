@@ -1,6 +1,6 @@
 # Python cheatsheet
 * [Simple data types](#simple-data-types)
-* [Making choices : booleans, if and conditionals](#Making-choices-booleans-if-and-conditionals)
+* [Making choices : booleans, if and conditionals](#making-choices-booleans-if-and-conditionals)
 
 ## Simple data types
 Display the type of an object :
