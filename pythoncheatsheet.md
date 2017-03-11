@@ -1,5 +1,5 @@
 # Python cheatsheet
-* [Simple data types][Simple-data-types]
+[Simple data types][Simple-data-types]
 ## Simple data types
 Display the type of an object :
 ```python
