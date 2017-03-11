@@ -79,6 +79,44 @@ Happy Birthday
 ```
 
 ## Making choices : booleans, if and conditionals
+Booleans :
+```python
+>>> True
+True
+>>> type(True)
+<class 'bool'>
+>>> False
+False
+>>> type(False)
+<class 'bool'>
+```
+Comparison operators :
+```python
+False
+>>> -1 < 0
+True
+>>> .5 <= 1
+True
+>>> "H" in "Hello"
+True
+>>> "X" not in "Hello"
+True
+```
+If examples :
+```python
+>>> if 6 > 5 :
+...     print("Six is greater than five")
+...
+Six is greater than five
+>>> if 0 > 2 :
+...     print("Zero is greater thant two")
+...
+>>> if "banana" in "bananarama" :
+...     print("I miss the 80s ...")
+...
+I miss the 80s ...
+```
+
 
 ```python
 def function():
