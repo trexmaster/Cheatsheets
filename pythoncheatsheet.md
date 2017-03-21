@@ -117,6 +117,7 @@ Six is greater than five
 I miss the 80s ...
 ```
 
+<<<<<<< HEAD
 If ... Else examples : 
 ```python
 >>> if sister > brother :
@@ -179,6 +180,8 @@ Elif example :
 ...
 Same age!
 ```
+=======
+>>>>>>> 992b6a25baed64ed21fe7c91f5b589ff546a1d55
 
 ```python
 def function():
