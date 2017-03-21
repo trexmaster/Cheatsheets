@@ -7,6 +7,7 @@
 ## Online ressources
 * Python documentation : https://docs.python.org/
 * Stack Overflow : https://stackoverflow.com/
+
 ## Simple data types
 Display the type of an object :
 ```python
