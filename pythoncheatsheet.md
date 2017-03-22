@@ -3,6 +3,7 @@
 * [Simple data types](#simple-data-types)
 * [Making choices : booleans, if and conditionals](#making-choices-booleans-if-and-conditionals)
 * [Lists](#lists)
+* [Loops](#loops)
 
 ## Online ressources
 * Python documentation : https://docs.python.org/
@@ -300,6 +301,73 @@ True
 False
 ```
 
+## Loops
+For examples :
+```python
+>>> names = ["Alice","Bob","Cassie","Diane","Ellen"]
+>>> for name in names:
+...     print(name)
+...
+Alice
+Bob
+Cassie
+Diane
+Ellen
+>>> for x in names:
+...     print(x)
+...
+Alice
+Bob
+Cassie
+Diane
+Ellen
+>>> for word in names:
+...     print("Hello "+word)
+...
+Hello Alice
+Hello Bob
+Hello Cassie
+Hello Diane
+Hello Ellen
+```
+Print a name if it starts with a vowel :
+```python
+>>> name = "Alice"
+>>> name[0]
+'A'
+>>> name[0] in ["A","E","I","O","U"]
+True
+>>> name[0] in "AEIOU"
+True
+>>> for name in names:
+...     if name[0] in "AEIOU":
+...         print(name + " starts with a vowel")
+...
+Alice starts with a vowel
+Ellen starts with a vowel
+```
+Building a new list from the names starting with a vowel :
+```python
+>>> vowel_names = []
+>>> for name in names :
+...     if name[0] in "AEIOU":
+...         vowel_names.append(name)
+...
+>>> vowel_names
+['Alice', 'Ellen']
+```
+Calculate a total :
+```python
+>>> prices = [1.5,2.35,5.99,16.49]
+>>> total = 0
+>>> for price in prices:
+...     total = total + price
+...
+>>> total
+26.33
+>>> sum(prices)
+26.33
+```
 
 ```python
 def function():
