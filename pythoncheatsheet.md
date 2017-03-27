@@ -4,6 +4,7 @@
 * [Making choices : booleans, if and conditionals](#making-choices-booleans-if-and-conditionals)
 * [Lists](#lists)
 * [Loops](#loops)
+* [Dictionaries](#dictionaries)
 
 ## Online ressources
 * Python documentation : https://docs.python.org/
@@ -367,6 +368,59 @@ Calculate a total :
 26.33
 >>> sum(prices)
 26.33
+```
+
+## Dictionaries
+* Stores key-value pairs
+* Doesn't care about order
+* Keys must be unique
+* Values don't have to be unique
+Create a dictionary :
+```python
+>>> ice_cream = {"Alice" : "chocolate", "Bob" : "strawberry", "Cara" : "mint chocolate chip"}
+```
+Display the value of a key :
+```python
+>>> ice_cream["Alice"]
+'chocolate'
+>>> ice_cream["Bob"]
+'strawberry'
+```
+If we try to access a key that doesn't exist :
+```python
+>>> ice_cream["Alice"]
+'chocolate'
+>>> ice_cream["Bob"]
+'strawberry'
+```
+Add a key to a dictionary :
+```python
+>>> ice_cream["Eve"] = "rum raisin"
+```
+A dictionary really doesn't care about order :
+```python
+>>> ice_cream
+{'Eve': 'rum raisin', 'Bob': 'strawberry', 'Alice': 'chocolate', 'Cara': 'mint chocolate chip'}
+```
+Is a key in a dictionary :
+```python
+>>> "Eve" in ice_cream
+True
+```
+A key MUST be unique :
+```python
+>>> ice_cream["Bob"] = "vanilla"
+>>> ice_cream
+{'Eve': 'rum raisin', 'Bob': 'vanilla', 'Alice': 'chocolate', 'Cara': 'mint chocolate chip'}
+```
+Create an empty dictionary :
+```python
+>>> phone_numbers = {}
+```
+Check the type of a dictionary :
+```python
+>>> type(phone_numbers)
+<class 'dict'>
 ```
 
 ```python
