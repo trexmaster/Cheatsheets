@@ -5,6 +5,7 @@
 * [Lists](#lists)
 * [Loops](#loops)
 * [Dictionaries](#dictionaries)
+* [Modules](#modules)
 
 ## Online ressources
 * Python documentation : https://docs.python.org/
@@ -422,6 +423,45 @@ Check the type of a dictionary :
 >>> type(phone_numbers)
 <class 'dict'>
 ```
+
+## Modules
+Import a module :
+```python
+>>> import random
+>>>
+```
+Use a module function :
+```python
+>>> random.randint(1,6)
+3
+>>> random.randint(1,6)
+5
+>>> random.randint(1,6)
+3
+>>> random.randint(1,6)
+4
+```
+Choose a random list item :
+```python
+>>> card = ["jack","queen","king","ace"]
+>>> random.choice(card)
+'king'
+>>> random.choice(card)
+'jack'
+>>> random.choice(card)
+'king'
+>>> random.choice(card)
+'jack'
+>>> random.choice(card)
+'jack'
+>>> random.choice(card)
+'queen'
+>>> random.choice(card)
+'ace'
+>>> random.choice(card)
+'jack'
+```
+
 
 ```python
 def function():
