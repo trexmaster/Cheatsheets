@@ -1,11 +1,6 @@
 # Python cheatsheet
-* [Online ressources](#online-ressources)
-* [Simple data types](#simple-data-types)
-* [Making choices : booleans, if and conditionals](#making-choices-booleans-if-and-conditionals)
-* [Lists](#lists)
-* [Loops](#loops)
-* [Dictionaries](#dictionaries)
-* [Modules](#modules)
+
+[TOC]
 
 ## Online ressources
 * Python documentation : https://docs.python.org/
@@ -469,3 +464,25 @@ def function():
     s = "Python syntax highlighting"
     print s
 ```
+
+## Interesting functions
+
+* Lambda functions:
+  * Anonymous functions have no name, and in Python, they're called lambda functions after lambda calculus. Here's a lambda function that takes a single argument x and returns the result of x + 1:
+  ```python
+  lambda x: x + 1
+  ```
+  * [Boot.dev lesson](https://www.boot.dev/lessons/6efdb47f-520a-4fd9-8629-34eb69f57667)
+  * [Python doc about lambdas](https://docs.python.org/3/reference/expressions.html#lambda)
+* Map:
+  * In Python, the built-in map function takes a function and an iterable (in this case a list) as inputs. It returns an iterator that applies the function to every item, yielding the results.
+  * [boot.dev lesson](https://www.boot.dev/lessons/3990f287-528f-4881-bc09-73e2ba05d96d)
+  * [Python doc about map](https://docs.python.org/3/library/functions.html#map)
+* Filter:
+  * The built-in filter function takes a function and an iterable (in this case a list) and returns an iterator that only contains elements from the original iterable where the result of the function on that item returned True.
+  * [boot.dev lesson](https://www.boot.dev/lessons/c3fbe0a1-0f70-47c0-b1e4-7195b0ef9a16)
+  * [Python doc about filter](https://docs.python.org/3/library/functions.html#filter)
+* Reduce:
+  * The built-in functools.reduce() function takes a function and a list of values, and applies the function to each value in the list, accumulating a single result as it goes.
+  * [boot.dev lesson](https://www.boot.dev/lessons/7431bed0-b31a-4d8e-b389-c64a619304ad)
+  * [Python doc about reduce](https://docs.python.org/3/library/functools.html#functools.reduce)

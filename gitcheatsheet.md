@@ -4,7 +4,7 @@
 * git config --global core.editor mate -w
 * git config --global core.editor subl -w
 * git init
-* git add
+* git add [.|dir|filename]
 * git status
 * git commit
 * git remote
@@ -19,3 +19,5 @@
 * git branch -a
 * git branch -remote
 * git fetch
+* git switch [branch_name] : switch to branch (duh)
+* git switch -c [branch_name] : create and switch to branch
